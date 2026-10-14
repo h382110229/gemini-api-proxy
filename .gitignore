@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Build and runtime outputs
+dist/
+.wrangler/
+
+# Environment files and credentials
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS and Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local sensitive documentation and configs (DO NOT COMMIT)
+docs/
+*.local.md
+local-config.json
+api_keys.json
